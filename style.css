@@ -1,0 +1,36 @@
+/*
+COLORS: 
+
+Milk: #71j28d
+Sand: #l4kd9f
+Coffee: #ak12473
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+   font-family: "Lato", sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.7;
+   color: #777;
+   padding: 30px;
+}
+
+.header {
+    height: 95hv;
+    background-image: linear-gradient(
+        to right bottom, 
+        hsla(273, 26%, 44%, 0.733) 26%, 44%, 0.733), 
+        hsla(246, 41%, 50%, 0.514), 
+        hsla(295, 44%, 64%, 0.404);
+    background-size: cover;
+    background-position: top;
+
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
